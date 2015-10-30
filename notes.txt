@@ -1,0 +1,59 @@
+Fonctionnalités anti-spam et anti-vandalisme
+Affinés les surveys et l'intégration continue
+/!\ Relire la section livraion (se fait par intégration continue)
+Atom feed
+Launchpad, forum et Wiki
+Intégration continue
+Liste des dérniére modifications
+Estimation d'importance de bug (Fonctionalité dispo dans launchpad) 
+Description documents pris en charge
+Envoi de fichiers en les gilssant sur la page
+Bugtracker externe
+Revoir la lecture des fichiers à partir du code review
+
+Détenteur des droits
+
+Création de sous projets phabricator. Est il possible de créer un sous projet.
+
+
+
+Phab : Integration continue (Harbormaster) : Création de Build plan basique, pas de systéme comme Jenkins.
+			Triggering Builds : Uniquement à partir des régle d'Herald. Il ne peut pas lancer de Build périodiques.
+			Harbormaster can only execute builds in a remote system, like Jenkins. It can not currently host builds.
+			Harbormaster propose que 3 options, Make Http request, 
+Launchpad : Flux rss
+Launchpad : survey
+
+
+Tuleap : Pour l'intégration continue Tuleap utilise Hudson/Jenkins
+
+Launchpad : Trackers :
+
+
+
+
+
+
+Critéres trackers : Notification par Mail
+						  Graphiques représentatifs
+						  Importance du bug
+						  Multi project bugs (bug partagé par plusieurs projets)
+						  Importation et exportation de bug
+											- impossible
+											- basique (A laide d'un fichier csv ou Json externe)
+											- Aboutie (Importation à partir de Bug tracker externe ou à partir d'autres projets)
+						  Lier des bugs
+						  Status du bug
+											- Non supporté
+											- Basique 
+											- Abouti https://help.launchpad.net/Bugs/Statuses
+						
+							
+
+Intégration continue : - Sur une plateforme automatisé
+							  - tester des modules
+							  - Accelerer la productivité
+							  - S'assurer de la non regression
+							  - Moins de personnel
+	
+								
